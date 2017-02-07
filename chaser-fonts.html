@@ -1,0 +1,377 @@
+<style>
+
+@font-face {
+  font-family: 'Knockout';
+  src: url('fonts/knockout/Knockout-HTF49-Liteweight.eot');
+  src: url('fonts/knockout/Knockout-HTF49-Liteweight.eot?#iefix') format('embedded-opentype'),
+    url('fonts/knockout/Knockout-HTF49-Liteweight.woff2') format('woff2'),
+    url('fonts/knockout/Knockout-HTF49-Liteweight.woff') format('woff'),
+    url('fonts/knockout/Knockout-HTF49-Liteweight.ttf') format('truetype'),
+    url('fonts/knockout/Knockout-HTF49-Liteweight.svg#Knockout-HTF49-Liteweight') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Moderat';
+    src: url('fonts/moderat/moderat-regular-webfont.eot');
+    src: url('fonts/moderat/moderat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/moderat/moderat-regular-webfont.woff2') format('woff2'),
+         url('fonts/moderat/moderat-regular-webfont.woff') format('woff'),
+         url('fonts/moderat/moderat-regular-webfont.ttf') format('truetype'),
+         url('fonts/moderat/moderat-regular-webfont.svg#moderatregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Moderat';
+    src: url('fonts/moderat/moderat-regular-webfont.eot');
+    src: url('fonts/moderat/moderat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/moderat/moderat-regular-webfont.woff2') format('woff2'),
+         url('fonts/moderat/moderat-regular-webfont.woff') format('woff'),
+         url('fonts/moderat/moderat-regular-webfont.ttf') format('truetype'),
+         url('fonts/moderat/moderat-regular-webfont.svg#moderatregular') format('svg');
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Moderat';
+    src: url('fonts/moderat/moderat-bold-webfont.eot');
+    src: url('fonts/moderat/moderat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/moderat/moderat-bold-webfont.woff2') format('woff2'),
+         url('fonts/moderat/moderat-bold-webfont.woff') format('woff'),
+         url('fonts/moderat/moderat-bold-webfont.ttf') format('truetype'),
+         url('fonts/moderat/moderat-bold-webfont.svg#moderatbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Tiempos Text';
+  src: url('fonts/tiempos-text/TiemposText-Bold.eot');
+  src: url('fonts/tiempos-text/TiemposText-Bold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/tiempos-text/TiemposText-Bold.woff2') format('woff2'),
+    url('fonts/tiempos-text/TiemposText-Bold.woff') format('woff'),
+    url('fonts/tiempos-text/TiemposText-Bold.ttf') format('truetype'),
+    url('fonts/tiempos-text/TiemposText-Bold.svg#TiemposText-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Tiempos Text';
+  src: url('fonts/tiempos-text/TiemposText-Regular.eot');
+  src: url('fonts/tiempos-text/TiemposText-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/tiempos-text/TiemposText-Regular.woff2') format('woff2'),
+    url('fonts/tiempos-text/TiemposText-Regular.woff') format('woff'),
+    url('fonts/tiempos-text/TiemposText-Regular.ttf') format('truetype'),
+    url('fonts/tiempos-text/TiemposText-Regular.svg#TiemposText-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Tiempos Headline';
+  src: url('fonts/tiempos-headline/TiemposHeadline-Light.eot');
+  src: url('fonts/tiempos-headline/TiemposHeadline-Light.eot?#iefix') format('embedded-opentype'),
+    url('fonts/tiempos-headline/TiemposHeadline-Light.woff2') format('woff2'),
+    url('fonts/tiempos-headline/TiemposHeadline-Light.woff') format('woff'),
+    url('fonts/tiempos-headline/TiemposHeadline-Light.ttf') format('truetype'),
+    url('fonts/tiempos-headline/TiemposHeadline-Light.svg#TiemposHeadline-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Tiempos Headline';
+  src: url('fonts/tiempos-headline/TiemposHeadline-Regular.eot');
+  src: url('fonts/tiempos-headline/TiemposHeadline-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/tiempos-headline/TiemposHeadline-Regular.woff2') format('woff2'),
+    url('fonts/tiempos-headline/TiemposHeadline-Regular.woff') format('woff'),
+    url('fonts/tiempos-headline/TiemposHeadline-Regular.ttf') format('truetype'),
+    url('fonts/tiempos-headline/TiemposHeadline-Regular.svg#TiemposHeadline-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Tiempos Headline';
+  src: url('fonts/tiempos-headline/TiemposHeadline-Medium.eot');
+  src: url('fonts/tiempos-headline/TiemposHeadline-Medium.eot?#iefix') format('embedded-opentype'),
+    url('fonts/tiempos-headline/TiemposHeadline-Medium.woff2') format('woff2'),
+    url('fonts/tiempos-headline/TiemposHeadline-Medium.woff') format('woff'),
+    url('fonts/tiempos-headline/TiemposHeadline-Medium.ttf') format('truetype'),
+    url('fonts/tiempos-headline/TiemposHeadline-Medium.svg#TiemposHeadline-Medium') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Tiempos Headline';
+  src: url('fonts/tiempos-headline/TiemposHeadline-Bold.eot');
+  src: url('fonts/tiempos-headline/TiemposHeadline-Bold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/tiempos-headline/TiemposHeadline-Bold.woff2') format('woff2'),
+    url('fonts/tiempos-headline/TiemposHeadline-Bold.woff') format('woff'),
+    url('fonts/tiempos-headline/TiemposHeadline-Bold.ttf') format('truetype'),
+    url('fonts/tiempos-headline/TiemposHeadline-Bold.svg#TiemposHeadline-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Linearicons';
+  src:  url('fonts/linearicons/Linearicons.eot?oijgoer');
+  src:  url('fonts/linearicons/Linearicons.eot?oijgoer#iefix') format('embedded-opentype'),
+    url('fonts/linearicons/Linearicons.ttf?oijgoer') format('truetype'),
+    url('fonts/linearicons/Linearicons.woff?oijgoer') format('woff'),
+    url('fonts/linearicons/Linearicons.svg?oijgoer#Linearicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Linearicons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home4:before {
+  content: "\e603";
+}
+.icon-apartment:before {
+  content: "\e60c";
+}
+.icon-snow:before {
+  content: "\e636";
+}
+.icon-snow2:before {
+  content: "\e637";
+}
+.icon-tissue:before {
+  content: "\e63c";
+}
+.icon-toilet-paper:before {
+  content: "\e63d";
+}
+.icon-poop:before {
+  content: "\e63e";
+}
+.icon-umbrella:before {
+  content: "\e63f";
+}
+.icon-umbrella2:before {
+  content: "\e640";
+}
+.icon-rain:before {
+  content: "\e641";
+}
+.icon-tornado:before {
+  content: "\e642";
+}
+.icon-wind:before {
+  content: "\e643";
+}
+.icon-fan:before {
+  content: "\e644";
+}
+.icon-contrast:before {
+  content: "\e645";
+}
+.icon-sun-small:before {
+  content: "\e646";
+}
+.icon-sun:before {
+  content: "\e647";
+}
+.icon-clear-night:before {
+  content: "\e647";
+}
+.icon-clear-day:before {
+  content: "\e647";
+}
+.icon-sun2:before {
+  content: "\e648";
+}
+.icon-moon:before {
+  content: "\e649";
+}
+.icon-cloud:before {
+  content: "\e64a";
+}
+.icon-cloud-upload:before {
+  content: "\e64b";
+}
+.icon-cloud-download:before {
+  content: "\e64c";
+}
+.icon-cloud-rain:before {
+  content: "\e64d";
+}
+.icon-cloud-hailstones:before {
+  content: "\e64e";
+}
+.icon-cloud-snow:before {
+  content: "\e64f";
+}
+.icon-cloud-windy:before {
+  content: "\e650";
+}
+.icon-sun-wind:before {
+  content: "\e651";
+}
+.icon-cloud-fog:before {
+  content: "\e652";
+}
+.icon-cloud-sun:before {
+  content: "\e653";
+}
+.icon-partly-cloudy-day:before {
+  content: "\e653";
+}
+.icon-partly-cloudy-night:before {
+  content: "\e653";
+}
+.icon-cloud-lightning:before {
+  content: "\e654";
+}
+.icon-trash2:before {
+  content: "\e681";
+}
+.icon-trash3:before {
+  content: "\e682";
+}
+.icon-ticket:before {
+  content: "\e6f5";
+}
+.icon-bag-dollar:before {
+  content: "\e75e";
+}
+.icon-bag-euro:before {
+  content: "\e75f";
+}
+.icon-bag-pound:before {
+  content: "\e760";
+}
+.icon-bag-yen:before {
+  content: "\e761";
+}
+.icon-calendar-31:before {
+  content: "\e788";
+}
+.icon-calendar-full:before {
+  content: "\e789";
+}
+.icon-calendar-insert:before {
+  content: "\e78a";
+}
+.icon-plane:before {
+  content: "\e83d";
+}
+.icon-car:before {
+  content: "\e84a";
+}
+.icon-bus:before {
+  content: "\e84d";
+}
+.icon-bus2:before {
+  content: "\e84e";
+}
+.icon-train:before {
+  content: "\e85a";
+}
+.icon-ship:before {
+  content: "\e85b";
+}
+.icon-ship2:before {
+  content: "\e85c";
+}
+.icon-cube:before {
+  content: "\e874";
+}
+.icon-question:before {
+  content: "\e933";
+}
+.icon-check:before {
+  content: "\e934";
+}
+.icon-cross2:before {
+  content: "\e935";
+}
+.icon-plus:before {
+  content: "\e936";
+}
+.icon-minus:before {
+  content: "\e937";
+}
+.icon-percent:before {
+  content: "\e938";
+}
+.icon-chevron-up:before {
+  content: "\e939";
+}
+.icon-chevron-down:before {
+  content: "\e93a";
+}
+.icon-chevron-left:before {
+  content: "\e93b";
+}
+.icon-chevron-right:before {
+  content: "\e93c";
+}
+.icon-chevrons-expand-vertical:before {
+  content: "\e93d";
+}
+.icon-chevrons-expand-horizontal:before {
+  content: "\e93e";
+}
+.icon-arrow-up:before {
+  content: "\e941";
+}
+.icon-arrow-down:before {
+  content: "\e942";
+}
+.icon-arrow-left:before {
+  content: "\e943";
+}
+.icon-arrow-right:before {
+  content: "\e944";
+}
+.icon-arrow-up-right:before {
+  content: "\e945";
+}
+.icon-question-circle:before {
+  content: "\e957";
+}
+.icon-checkmark-circle:before {
+  content: "\e959";
+}
+.icon-warning:before {
+  content: "\e955";
+}
+.icon-cross-circle:before {
+  content: "\e95a";
+}
+.icon-plus-circle:before {
+  content: "\e95b";
+}
+.icon-circle-minus:before {
+  content: "\e95c";
+}
+
+
+</style>
