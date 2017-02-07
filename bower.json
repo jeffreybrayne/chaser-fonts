@@ -1,6 +1,7 @@
 {
   "name": "chaser-fonts",
   "main": "chaser-fonts.html",
+  "repository": "https://lmb-bower.sandbox.paas.lmig.com",
   "dependencies": {
     "polymer": "Polymer/polymer#^1.4.0"
   },
